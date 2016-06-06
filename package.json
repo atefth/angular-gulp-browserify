@@ -1,30 +1,52 @@
 {
-    "name": "angular-spa",
-    "version": "1.0.0",
-    "description": "Example single page application with angularJs and Gulp",
-    "main": "app.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "keywords": [
-        "angular",
-        "gulp",
-        "browserify"
-    ],
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/atefth/angular-gulp-browserify.git"
-    },
-    "author": "atefth@gmail.com",
-    "license": "MIT",
-    "devDependencies": {
-        "browserify": "^13.0.1",
-        "gulp": "^3.9.1",
-        "gulp-connect": "^4.0.0",
-        "gulp-ruby-sass": "^2.0.6",
-        "vinyl-source-stream": "^1.1.0"
-    },
-    "dependencies": {
-        "angular": "^1.5.5"
-    }
+  "name": "angular-spa",
+  "version": "1.0.0",
+  "description": "Example single page application with angularJs and Gulp",
+  "main": "app.js",
+  "scripts": {
+    "start": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "angular",
+    "gulp",
+    "browserify"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/atefth/angular-gulp-browserify.git"
+  },
+  "author": "atefth@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "",
+    "browser-sync": "",
+    "del": "",
+    "gulp": "",
+    "gulp-if": "",
+    "gulp-imagemin": "",
+    "gulp-jshint": "",
+    "gulp-notify": "",
+    "gulp-postcss": "",
+    "gulp-sass": "",
+    "gulp-sourcemaps": "",
+    "gulp-uglify": "",
+    "gulp-util": "",
+    "jshint": "",
+    "jshint-stylish": "",
+    "require-dir": "",
+    "vinyl-buffer": "",
+    "vinyl-source-stream": "",
+    "watchify": "",
+    "yargs": ""
+  },
+  "dependencies": {
+    "angular": "^1.5.5",
+    "angular-animate": "^1.4.7",
+    "angular-aria": "^1.4.7",
+    "angular-material": "^0.11.4",
+    "angular-ui-router": "^0.2.15",
+    "bootstrap-sass": "^3.3.6",
+    "jquery": "^2.2.4"
+  }
 }
