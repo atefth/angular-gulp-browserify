@@ -36,5 +36,5 @@ node_modules
 .sass-cache
 
 #public assets
-/public/assets/index.css
-/public/assets/app.js
+/public/css/index.css
+/public/scripts/app.js
