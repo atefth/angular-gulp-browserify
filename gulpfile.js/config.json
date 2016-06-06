@@ -1,0 +1,35 @@
+{
+  "root": {
+    "src": "./",
+    "dest": "./public"
+  },
+  "tasks": {
+    "scripts": {
+      "src": "app",
+      "dest": "scripts",
+      "extensions": ["js", "json"],
+      "main": "app.js"
+    },
+    "css": {
+      "src": "assets/sass",
+      "dest": "css",
+      "autoprefixer": {
+        "browsers": ["last 3 version"]
+      },
+      "extensions": ["sass", "scss", "css"]
+    },
+    "assets": {
+      "src": "assets/",
+      "dest": "assets/"
+    },
+    "templates": {
+      "src": "templates/",
+      "dest": "templates/"
+    },
+    "images": {
+      "src": "assets/images",
+      "dest": "assets/images",
+      "extensions": ["gif", "jpg", "png", "svg"]
+    }
+  }
+}
